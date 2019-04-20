@@ -102,7 +102,7 @@ div.about {
   align-items: center;
 }
 
-div.about-container {
+div.about div.about-container {
   margin: auto;
   padding: 150px 275px;
   display: flex;
@@ -111,26 +111,22 @@ div.about-container {
   align-items: center;
 }
 
-h2,
-p,
-button {
-  margin-bottom: 40px;
-}
-
-h2 {
+div.about div.about-container h2 {
   text-transform: uppercase;
   color: #d70f64;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
-p {
+div.about div.about-container p {
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
-button {
+div.about div.about-container button {
   padding: 20px 75px;
-  background: #d70f64;
   border: none;
+  background: #d70f64;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -144,7 +140,7 @@ div.carrers {
   background-size: cover;
 }
 
-div.carrers-container {
+div.carrers div.carrers-container {
   margin: auto;
   padding: 150px 275px;
   display: flex;
@@ -154,24 +150,21 @@ div.carrers-container {
   color: white;
 }
 
-h2,
-p,
-button {
-  margin-bottom: 40px;
-}
-
-h2 {
+div.carrers div.carrers-container h2 {
   text-transform: uppercase;
   color: #d70f64;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
-p {
+div.carrers div.carrers-container p {
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
-button {
+div.carrers div.carrers-container button {
   padding: 20px 75px;
+  margin-bottom: 40px;
   background: #d70f64;
   border: none;
   color: white;
@@ -187,7 +180,7 @@ div.press {
   background-size: cover;
 }
 
-div.press-container {
+div.press div.press-container {
   margin: auto;
   padding: 150px 275px;
   display: flex;
@@ -197,29 +190,32 @@ div.press-container {
   color: white;
 }
 
-h2,
-p,
-button {
-  margin-bottom: 40px;
-}
-
-h2 {
+div.press div.press-container h2 {
   text-transform: uppercase;
   color: #d70f64;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
-p {
+div.press div.press-container p {
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
-button {
+div.press div.press-container button {
   padding: 20px 75px;
   background: #d70f64;
   border: none;
   color: white;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h2,
+p,
+button {
+  margin-bottom: 40px;
 }
 
 div.contact {
@@ -273,31 +269,28 @@ div.footer {
   margin: 25px 70px;
 }
 
-div.footer-left,
-div.footer-right {
-  width: 50%;
-}
-
-div.footer-left {
+div.footer div.footer-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 50%;
 }
 
-div.footer-left-icon {
+div.footer div.footer-left div.footer-left-icon {
   width: 244px;
   height: 30px;
 }
 
-div.footer-right {
+div.footer div.footer-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  width: 50%;
 }
 
-div.footer-right div.imprint-security span {
+div.footer div.footer-right div.footer-right div.imprint-security span {
   margin: 0 10px;
 }
 
