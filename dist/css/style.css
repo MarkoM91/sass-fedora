@@ -26,10 +26,10 @@ div.header div.header-left div.header-left-icon {
 
 div.header div.header-right {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   width: 50%;
+  flex-direction: row;
 }
 
 div.header div.header-right ul {
