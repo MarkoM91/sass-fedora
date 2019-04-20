@@ -1,18 +1,10 @@
 
 div.about {
 
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   @include div;
 
    div.about-container {
-      margin: auto;
-      padding: 150px 275px;
-
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
+    @include container;
 
       h2 {
         @include h2;

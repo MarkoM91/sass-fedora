@@ -20,3 +20,19 @@ $colors2 : white;
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+@mixin div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container {
+  margin: auto;
+  padding: 150px 275px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,19 +1,11 @@
 
   div.carrers {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+     @include div;
      background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
      background-size: cover;
 
      div.carrers-container {
-        margin: auto;
-        padding: 150px 275px;
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        @include container;
         color: $colors2;
 
         h2 {
