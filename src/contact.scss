@@ -1,11 +1,13 @@
 
-div.about {
+div.contact {
    display: flex;
    justify-content: center;
    align-items: center;
+   background: rgb(215, 15, 100);
+   background-size: cover;
 }
 
-div.about-container {
+div.contact-container {
   margin: auto;
   padding: 150px 275px;
 
@@ -13,6 +15,7 @@ div.about-container {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 h2, p, button {
@@ -21,9 +24,8 @@ h2, p, button {
 
 h2 {
   text-transform: uppercase;
-  color: rgb(215, 15, 100);
+  color: white;
   font-size: 30px;
-  text-shadow: 20px 20px 20px black;
 }
 
 p {
@@ -33,9 +35,9 @@ p {
 button {
 
   padding: 20px 75px;
-  background: rgb(215, 15, 100);
+  background: white;
   border: none;
-  color: white;
+  color: rgb(215, 15, 100);
   text-align: center;
   text-transform: uppercase;
 }

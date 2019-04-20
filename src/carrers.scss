@@ -1,0 +1,43 @@
+
+  div.carrers {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
+     background-size: cover;
+  }
+
+  div.carrers-container {
+    margin: auto;
+    padding: 150px 275px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  h2, p, button {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: rgb(215, 15, 100);
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+
+    padding: 20px 75px;
+    background: rgb(215, 15, 100);
+    border: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
