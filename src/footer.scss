@@ -1,24 +1,15 @@
 
 div.footer {
-   height: 60px;
-
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   @include headerFooter;
 
    margin: 25px 70px;
 
    div.footer-left {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
+     @include footer-left;
 
-      width: 50%;
 
       div.footer-left-icon {
-         width: 244px;
-         height: 30px;
+         @include headerFooter-icon;
       }
    }
 

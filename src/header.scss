@@ -5,7 +5,7 @@ div.header {
    margin: 0 70px;
 
    div.header-left {
-      @include headerFooter-left;
+      @include header-left;
 
       div.header-left-icon {
          @include headerFooter-icon;

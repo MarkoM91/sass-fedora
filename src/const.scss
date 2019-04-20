@@ -45,10 +45,17 @@ $colors2 : white;
   justify-content: space-between;
 }
 
-@mixin headerFooter-left {
+@mixin header-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 50%;
+}
+@mixin footer-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
   width: 50%;
 }
 
