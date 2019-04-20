@@ -110,9 +110,9 @@ div.about div.about-container {
 
 div.about div.about-container h2 {
   text-transform: uppercase;
-  color: #d70f64;
   font-size: 30px;
   margin-bottom: 40px;
+  color: #d70f64;
 }
 
 div.about div.about-container p {
@@ -123,11 +123,11 @@ div.about div.about-container p {
 div.about div.about-container button {
   padding: 20px 75px;
   border: none;
-  background: #d70f64;
-  color: white;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
+  background: #d70f64;
+  color: white;
 }
 
 div.carrers {
@@ -150,9 +150,9 @@ div.carrers div.carrers-container {
 
 div.carrers div.carrers-container h2 {
   text-transform: uppercase;
-  color: #d70f64;
   font-size: 30px;
   margin-bottom: 40px;
+  color: #d70f64;
 }
 
 div.carrers div.carrers-container p {
@@ -163,11 +163,11 @@ div.carrers div.carrers-container p {
 div.carrers div.carrers-container button {
   padding: 20px 75px;
   border: none;
-  background: #d70f64;
-  color: white;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
+  background: #d70f64;
+  color: white;
 }
 
 div.press {
@@ -190,9 +190,9 @@ div.press div.press-container {
 
 div.press div.press-container h2 {
   text-transform: uppercase;
-  color: #d70f64;
   font-size: 30px;
   margin-bottom: 40px;
+  color: #d70f64;
 }
 
 div.press div.press-container p {
@@ -203,11 +203,11 @@ div.press div.press-container p {
 div.press div.press-container button {
   padding: 20px 75px;
   border: none;
-  background: #d70f64;
-  color: white;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
+  background: #d70f64;
+  color: white;
 }
 
 div.contact {
@@ -230,9 +230,9 @@ div.contact div.contact-container {
 
 div.contact div.contact-container h2 {
   text-transform: uppercase;
-  color: white;
   font-size: 30px;
   margin-bottom: 40px;
+  color: white;
 }
 
 div.contact div.contact-container p {
@@ -243,11 +243,11 @@ div.contact div.contact-container p {
 div.contact div.contact-container button {
   padding: 20px 75px;
   border: none;
-  background: #d70f64;
-  color: white;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
+  background: white;
+  color: #d70f64;
 }
 
 div.footer {

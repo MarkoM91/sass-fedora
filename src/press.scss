@@ -17,20 +17,19 @@ div.press {
       color: $colors2;
 
       h2 {
-         text-transform: uppercase;
+         @include h2;
          color: $colors1;
-         font-size: 30px;
-         margin-bottom: 40px;
       }
 
       p {
-         font-size: 20px;
-         margin-bottom: 40px;
+        @include p;
 
        }
 
       button {
         @include button;
+        background: $colors1;
+        color: $colors2;
        }
    }
 }

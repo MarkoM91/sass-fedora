@@ -5,10 +5,18 @@ $colors2 : white;
   padding: 20px 75px;
   border: none;
 
-  background: $colors1;
-  color: $colors2;
-
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+@mixin h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+@mixin p {
+  font-size: 20px;
   margin-bottom: 40px;
 }
