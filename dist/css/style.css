@@ -46,13 +46,26 @@ div.header-right ul li {
   color: #d70f64;
 }
 
-div.sliders {
+div.slider {
   width: 1349px;
   position: relative;
 }
 
 div.slider img {
   width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 20px 20px 20px black;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 8px 0;
 }
 
 div.about {
@@ -79,6 +92,7 @@ button {
 h2 {
   text-transform: uppercase;
   color: #d70f64;
+  font-size: 30px;
 }
 
 button {
