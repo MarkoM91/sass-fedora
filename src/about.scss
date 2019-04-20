@@ -1,40 +1,40 @@
 
 div.about {
+
    display: flex;
    justify-content: center;
    align-items: center;
-}
 
-div.about-container {
-  margin: auto;
-  padding: 150px 275px;
+   div.about-container {
+     margin: auto;
+     padding: 150px 275px;
 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
 
-h2, p, button {
-  margin-bottom: 40px;
-}
+     h2 {
+       text-transform: uppercase;
+       color: rgb(215, 15, 100);
+       font-size: 30px;
+       margin-bottom: 40px;
+     }
 
-h2 {
-  text-transform: uppercase;
-  color: rgb(215, 15, 100);
-  font-size: 30px;
-}
+     p {
+       font-size: 20px;
+       margin-bottom: 40px;
+     }
 
-p {
-  font-size: 20px;
-}
+     button {
+       padding: 20px 75px;
+       border: none;
 
-button {
+       background: rgb(215, 15, 100);
+       color: white;
 
-  padding: 20px 75px;
-  background: rgb(215, 15, 100);
-  border: none;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
+       text-align: center;
+       text-transform: uppercase;
+     }
+   }
 }
