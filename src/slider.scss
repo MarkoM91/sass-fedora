@@ -32,6 +32,14 @@ div.slider{
     margin: auto;
     width: 100%;
     padding: 10px 0;
+
+    div.nations div.choose-country {
+      width: 30%;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 70px 70px 70px black;
+    }
   }
 }
 
@@ -41,13 +49,7 @@ div.slider{
 
 
 
-div.nations div.choose-country {
-  width: 30%;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  text-shadow: 70px 70px 70px black;
-}
+
 
 div.nations div.nations-flags {
   width: 70%;
