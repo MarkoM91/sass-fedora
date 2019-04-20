@@ -14,12 +14,7 @@ div.footer {
    }
 
    div.footer-right {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
-
-      width: 50%;
+      @include footer-right;
 
       div.footer-right div.imprint-security span{
          margin: 0 10px;

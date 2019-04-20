@@ -64,9 +64,16 @@ $colors2 : white;
   height: 30px;
 }
 
-@mixin headerFooter-right {
+@mixin header-right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 50%;
+}
+@mixin footer-right {
+  display: flex;
+  flex-direction: column
+  justify-content: center;
+  align-items: flex-end;
   width: 50%;
 }

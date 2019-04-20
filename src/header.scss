@@ -13,7 +13,7 @@ div.header {
    }
 
   div.header-right {
-     @include headerFooter-right;
+     @include header-right;
      flex-direction: row;
 
      ul {
