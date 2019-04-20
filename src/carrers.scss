@@ -14,11 +14,11 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        color: white;
+        color: $colors2;
 
         h2 {
            text-transform: uppercase;
-           color: rgb(215, 15, 100);
+           color: $colors1;
            font-size: 30px;
            margin-bottom: 40px;
         }
@@ -31,9 +31,9 @@
         button {
            padding: 20px 75px;
            margin-bottom: 40px;
-           background: rgb(215, 15, 100);
+           background: $colors1;
            border: none;
-           color: white;
+           color: $colors2;
            text-align: center;
            text-transform: uppercase;
         }

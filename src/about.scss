@@ -16,7 +16,7 @@ div.about {
 
       h2 {
        text-transform: uppercase;
-       color: rgb(215, 15, 100);
+       color: $colors1;
        font-size: 30px;
        margin-bottom: 40px;
       }
@@ -30,8 +30,8 @@ div.about {
         padding: 20px 75px;
         border: none;
 
-        background: rgb(215, 15, 100);
-        color: white;
+        background: $colors1;
+        color: $colors2;
 
         text-align: center;
         text-transform: uppercase;

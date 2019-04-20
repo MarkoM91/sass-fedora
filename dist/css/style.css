@@ -209,12 +209,6 @@ div.press div.press-container button {
   margin-bottom: 40px;
 }
 
-h2,
-p,
-button {
-  margin-bottom: 40px;
-}
-
 div.contact {
   display: flex;
   justify-content: center;
