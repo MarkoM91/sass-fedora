@@ -7,39 +7,38 @@ div.press {
    background-size: cover;
 
    div.press-container {
-     margin: auto;
-     padding: 150px 275px;
+      margin: auto;
+      padding: 150px 275px;
 
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     align-items: center;
-     color: white;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: white;
 
-     h2 {
-       text-transform: uppercase;
-       color: rgb(215, 15, 100);
-       font-size: 30px;
-       margin-bottom: 40px;
-     }
+      h2 {
+         text-transform: uppercase;
+         color: rgb(215, 15, 100);
+         font-size: 30px;
+         margin-bottom: 40px;
+      }
 
-     p {
-       font-size: 20px;
-       margin-bottom: 40px;
+      p {
+         font-size: 20px;
+         margin-bottom: 40px;
 
-     }
+       }
 
-     button {
+      button {
 
-       padding: 20px 75px;
-       background: rgb(215, 15, 100);
-       border: none;
-       color: white;
-       text-align: center;
-       text-transform: uppercase;
-       margin-bottom: 40px;
-
-     }
+         padding: 20px 75px;
+         background: rgb(215, 15, 100);
+         border: none;
+         color: white;
+         text-align: center;
+         text-transform: uppercase;
+         margin-bottom: 40px;
+       }
    }
 }
 

@@ -5,39 +5,38 @@ div.contact {
    align-items: center;
    background: rgb(215, 15, 100);
    background-size: cover;
-}
 
-div.contact-container {
-  margin: auto;
-  padding: 150px 275px;
+   div.contact-container {
+      margin: auto;
+      padding: 150px 275px;
 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: white;
 
-h2, p, button {
-  margin-bottom: 40px;
-}
+      h2 {
+         text-transform: uppercase;
+         color: white;
+         font-size: 30px;
+         margin-bottom: 40px;
+      }
 
-h2 {
-  text-transform: uppercase;
-  color: white;
-  font-size: 30px;
-}
+      p {
+         font-size: 20px;
+         margin-bottom: 40px;
+      }
 
-p {
-  font-size: 20px;
-}
+      button {
 
-button {
-
-  padding: 20px 75px;
-  background: white;
-  border: none;
-  color: rgb(215, 15, 100);
-  text-align: center;
-  text-transform: uppercase;
+         padding: 20px 75px;
+         background: white;
+         border: none;
+         color: rgb(215, 15, 100);
+         text-align: center;
+         text-transform: uppercase;
+         margin-bottom: 40px;
+      }
+   }
 }

@@ -223,7 +223,7 @@ div.contact {
   background-size: cover;
 }
 
-div.contact-container {
+div.contact div.contact-container {
   margin: auto;
   padding: 150px 275px;
   display: flex;
@@ -233,29 +233,26 @@ div.contact-container {
   color: white;
 }
 
-h2,
-p,
-button {
-  margin-bottom: 40px;
-}
-
-h2 {
+div.contact div.contact-container h2 {
   text-transform: uppercase;
   color: white;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
-p {
+div.contact div.contact-container p {
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
-button {
+div.contact div.contact-container button {
   padding: 20px 75px;
   background: white;
   border: none;
   color: #d70f64;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 div.footer {
