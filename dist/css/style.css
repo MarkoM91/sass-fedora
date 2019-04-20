@@ -48,11 +48,11 @@ div.slider {
   position: relative;
 }
 
-div.slider img {
+div.slider div.slider-img img {
   width: 100%;
 }
 
-h1 {
+div.slider h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -65,7 +65,7 @@ h1 {
   padding: 8px 0;
 }
 
-div.nations {
+div.slider div.nations {
   display: flex;
   background: rgba(255, 255, 255, 0.3);
   position: absolute;
