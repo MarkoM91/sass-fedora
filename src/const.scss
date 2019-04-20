@@ -8,6 +8,8 @@ $margin70 : 70px;
 $width100 : 100%;
 
 $venti : 20px;
+$trenta :30px;
+$quaranta: 40px;
 $settanta : 70px;
 
 
@@ -17,18 +19,18 @@ $settanta : 70px;
 
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: $quaranta;
 }
 
 @mixin h2 {
   text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 40px;
+  font-size: $trenta;
+  margin-bottom: $quaranta;
 }
 
 @mixin p {
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: $quaranta;
 }
 
 @mixin div {
@@ -71,7 +73,7 @@ $settanta : 70px;
 
 @mixin headerFooter-icon {
   width: 244px;
-  height: 30px;
+  height: $trenta;
 }
 
 @mixin header-right {
