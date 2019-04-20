@@ -2,7 +2,7 @@
 div.footer {
    @include headerFooter;
 
-   margin: 25px 70px;
+   margin: 25px $margin70;
 
    div.footer-left {
      @include footer-left;

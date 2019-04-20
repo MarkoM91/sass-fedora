@@ -1,6 +1,10 @@
 $colors1 : rgb(215, 15, 100);
 $colors2 : white;
 
+$margin70 : 70px;
+
+$width100 : 100%;
+
 @mixin button {
   padding: 20px 75px;
   border: none;
@@ -76,4 +80,9 @@ $colors2 : white;
   justify-content: center;
   align-items: flex-end;
   width: 50%;
+}
+
+@mixin txt {
+  text-transform: uppercase;
+  text-align: center;
 }
