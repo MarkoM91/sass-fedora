@@ -68,6 +68,34 @@ h1 {
   padding: 8px 0;
 }
 
+div.nations {
+  display: flex;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  padding: 10px 0;
+}
+
+div.nations div.choose-country {
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 70px 70px 70px black;
+}
+
+div.nations div.nations-flags {
+  width: 70%;
+}
+
+div.nations div.nations-flags img {
+  width: 44px;
+  height: 30px;
+  margin: 5px;
+}
+
 div.about {
   display: flex;
   justify-content: center;
@@ -76,7 +104,7 @@ div.about {
 
 div.about-container {
   margin: auto;
-  padding: 180px 275px;
+  padding: 150px 275px;
   display: flex;
   justify-content: center;
   flex-direction: column;
