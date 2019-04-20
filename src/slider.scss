@@ -43,23 +43,12 @@ div.slider{
 
     div.nations div.nations-flags {
       width: 70%;
+
+      img {
+        width: 44px;
+        height: 30px;
+        margin: 5px;
+      }
     }
-
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-div.nations div.nations-flags img {
-  width: 44px;
-  height: 30px;
-  margin: 5px;
 }
