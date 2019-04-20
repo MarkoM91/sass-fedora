@@ -20,7 +20,7 @@ div.slider{
       text-shadow: $venti $venti $venti $colors4;
 
       @include txt;
-      font-size: 40px;
+      font-size: $quaranta;
       padding: 8px 0;
     }
 
@@ -45,7 +45,7 @@ div.slider{
 
       img {
         width: 44px;
-        height: 30px;
+        height: $trenta;
         margin: 5px;
       }
     }
