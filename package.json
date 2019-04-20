@@ -1,0 +1,21 @@
+{
+  "name": "sass-fedora",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run dev -- --watch  --watch-poll",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^4.0.15",
+    "sass": "^1.19.0"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^2.3.1",
+    "sass-loader": "^7.1.0"
+  }
+}

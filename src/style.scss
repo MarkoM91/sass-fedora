@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "header";
+@import "slider";
+
+div.about {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+div.about-container {
+  margin: auto;
+  padding: 180px 275px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, p, button {
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(215, 15, 100);
+}
+
+button {
+
+  padding: 20px 75px;
+  background: rgb(215, 15, 100);
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
