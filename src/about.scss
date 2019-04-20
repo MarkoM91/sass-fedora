@@ -27,14 +27,7 @@ div.about {
       }
 
       button {
-        padding: 20px 75px;
-        border: none;
-
-        background: $colors1;
-        color: $colors2;
-
-        text-align: center;
-        text-transform: uppercase;
+        @include button;
       }
    }
 }

@@ -29,14 +29,7 @@ div.contact {
       }
 
       button {
-
-         padding: 20px 75px;
-         background: $colors2;
-         border: none;
-         color: $colors1;
-         text-align: center;
-         text-transform: uppercase;
-         margin-bottom: 40px;
+        @include button;
       }
    }
 }

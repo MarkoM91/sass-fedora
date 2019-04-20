@@ -127,6 +127,7 @@ div.about div.about-container button {
   color: white;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 div.carrers {
@@ -161,12 +162,12 @@ div.carrers div.carrers-container p {
 
 div.carrers div.carrers-container button {
   padding: 20px 75px;
-  margin-bottom: 40px;
-  background: #d70f64;
   border: none;
+  background: #d70f64;
   color: white;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 div.press {
@@ -201,8 +202,8 @@ div.press div.press-container p {
 
 div.press div.press-container button {
   padding: 20px 75px;
-  background: #d70f64;
   border: none;
+  background: #d70f64;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -241,9 +242,9 @@ div.contact div.contact-container p {
 
 div.contact div.contact-container button {
   padding: 20px 75px;
-  background: white;
   border: none;
-  color: #d70f64;
+  background: #d70f64;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;

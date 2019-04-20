@@ -30,14 +30,7 @@ div.press {
        }
 
       button {
-
-         padding: 20px 75px;
-         background: $colors1;
-         border: none;
-         color: $colors2;
-         text-align: center;
-         text-transform: uppercase;
-         margin-bottom: 40px;
+        @include button;
        }
    }
 }
