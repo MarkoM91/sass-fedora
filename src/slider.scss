@@ -16,8 +16,8 @@ div.slider{
       left: 50%;
       transform: translate(-50%, -50%);
 
-      color: white;
-      text-shadow: 20px 20px 20px black;
+      color: $colors2;
+      text-shadow: $venti $venti $venti $colors4;
 
       @include txt;
       font-size: 40px;
@@ -26,7 +26,7 @@ div.slider{
 
     div.nations {
        display: flex;
-       background: rgba(255, 255, 255, 0.3);
+       background: $colors3;
        position: absolute;
        bottom: 0;
        margin: auto;
@@ -37,7 +37,7 @@ div.slider{
        width: 30%;
        @include txt;
        color: $colors2;
-       text-shadow: 70px 70px 70px black;
+       text-shadow: $settanta $settanta $settanta $colors4;
     }
 
     div.nations div.nations-flags {

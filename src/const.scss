@@ -1,9 +1,15 @@
 $colors1 : rgb(215, 15, 100);
 $colors2 : white;
+$colors3 : rgba(255, 255, 255, 0.3);
+$colors4 : black;
 
 $margin70 : 70px;
 
 $width100 : 100%;
+
+$venti : 20px;
+$settanta : 70px;
+
 
 @mixin button {
   padding: 20px 75px;
