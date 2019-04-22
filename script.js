@@ -5,19 +5,19 @@ function hiddenNavShow() {
 }
 
 function resize() {
+
     var ww = document.body.clientWidth;
     if (ww >100) {
       $('.hidden-header-right').removeClass('active');
     }
-  };
-  $(window).resize(function(){
-    resize();
-  });
+  }
+
 function init() {
 
   var menu = $("div.hamburger-menu");
   menu.click(hiddenNavShow);
 
-
+  $(window).resize(resize);
 }
+
 $(document).ready(init);
