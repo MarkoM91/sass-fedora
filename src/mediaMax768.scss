@@ -1,6 +1,12 @@
 @media screen and (max-width:768px) {
 
-  div.header-right ul li{
-    display: none;
+  div.header-right {
+
+     ul {
+
+       li {
+         display: none;
+       }
+     }
   }
 }
