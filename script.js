@@ -1,36 +1,14 @@
-function leftClick() {
+function hiddenNavShow() {
 
-  var activeImg = $('img.active');
-  activeImg.removeClass("active");
-
-  var prevImg;
-  var prevImg = activeImg.prev("img");
-  if (activeImg.hasClass("first")) {
-
-   prevImg = $("img.last");
- }
- prevImg.addClass("active");
-}
-
-function rightClick() {
-
-  var activeImg = $('img.active');
-  activeImg.removeClass("active");
-
-  var nextImg;
-  if (activeImg.hasClass("last")) {
-
-    nextImg = $('.picture-container > img.first');
-  } else {
-
-    nextImg = activeImg.next("img");
-  }
-  nextImg.addClass("active");
+  var hidden_header_right = $(".hidden-header-right");
+  hidden_header_right.toggleClass("active");
 
 }
+
 
 function init() {
-
+  var menu = $("div.hamburger-menu");
+  menu.click(hiddenNavShow);
 }
 
 $(document).ready(init);

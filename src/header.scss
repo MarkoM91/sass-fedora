@@ -20,7 +20,7 @@ div.header {
       }
    }
 
-  div.header-right {
+   div.header-right {
      @include header-right;
      flex-direction: row;
 
@@ -34,5 +34,30 @@ div.header {
             color: $colors1;
         }
       }
+   }
+
+   div.hidden-header-right {
+
+     display: flex;
+     display: none;
+     flex-direction: column;
+     z-index: 100;
+     background: $colors2;
+     width: $width100;
+
+     ul {
+
+
+        li {
+            list-style: none;
+            padding: 15px;
+            text-transform: uppercase;
+            color: $colors1;
+        }
+      }
+   }
+
+   div.active {
+     display: block;
    }
 }
