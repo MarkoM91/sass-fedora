@@ -5,7 +5,6 @@ function hiddenNavShow() {
 
 }
 
-
 function init() {
   var menu = $("div.hamburger-menu");
   menu.click(hiddenNavShow);

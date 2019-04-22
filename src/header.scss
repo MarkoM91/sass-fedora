@@ -41,9 +41,16 @@ div.header {
      display: flex;
      display: none;
      flex-direction: column;
+
+     min-width: 100vw;
+     min-height: 50vh;
+
+     position: absolute;
+     top: 50px;
+     left: 0;
      z-index: 100;
-     background: $colors2;
-     width: $width100;
+
+     background-color: $colors2;
 
      ul {
 
