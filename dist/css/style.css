@@ -166,6 +166,7 @@ div.carrers {
   align-items: center;
   background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 div.carrers div.carrers-container {
@@ -206,6 +207,7 @@ div.press {
   align-items: center;
   background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 div.press div.press-container {
@@ -241,6 +243,7 @@ div.press div.press-container button {
 }
 
 div.contact {
+  max-width: 1349px;
   display: flex;
   justify-content: center;
   align-items: center;
