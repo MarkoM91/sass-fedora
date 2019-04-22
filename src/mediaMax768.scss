@@ -36,6 +36,24 @@
 
   div.slider {
 
+    div.slider-img{
+
+       img{
+           width: $width100;
+       }
+
+       h1 {
+         @include absolute;
+
+         color: $colors2;
+         text-shadow: $venti $venti $venti $colors4;
+
+         @include txt;
+         font-size: $quaranta;
+         padding: 8px 0;
+       }
+     }
+
     div.nations {
        display: flex;
        flex-direction: column;

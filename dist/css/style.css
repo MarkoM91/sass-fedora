@@ -81,7 +81,7 @@ div.slider div.slider-img img {
   width: 100%;
 }
 
-div.slider h1 {
+div.slider div.slider-img h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -345,6 +345,24 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-right ul li {
     display: none;
+  }
+
+  div.slider div.slider-img img {
+    width: 100%;
+  }
+
+  div.slider div.slider-img h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 20px 20px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding: 8px 0;
   }
 
   div.slider div.nations {
