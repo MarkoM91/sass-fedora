@@ -349,9 +349,8 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.slider div.nations {
     display: flex;
-    background: rgba(255, 255, 255, 0.3);
-    position: absolute;
-    bottom: 0;
+    flex-direction: column;
+    position: relative;
     margin: auto;
     width: 100%;
     padding: 10px 0;
@@ -361,8 +360,9 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     width: 30%;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: #d70f64;
     text-shadow: 70px 70px 70px black;
+    margin-bottom: 30px;
   }
 
   div.slider div.nations div.nations div.nations-flags {
@@ -375,6 +375,24 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     margin: 5px;
   }
 
+  div.about div.about-container {
+    padding: 150px 30px;
+  }
+
+  div.carrers div.carrers-container {
+    padding: 150px 30px;
+  }
+
+  div.press div.press-container {
+    padding: 150px 30px;
+  }
+
+  div.contact div.contact-container {
+    padding: 150px 30px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1000px) {
   div.about div.about-container {
     padding: 150px 30px;
   }
