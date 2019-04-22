@@ -4,6 +4,7 @@ $colors3 : rgba(255, 255, 255, 0.3);
 $colors4 : black;
 
 $margin70 : 70px;
+$margin_auto: auto;
 
 $width100 : 100%;
 
@@ -74,7 +75,6 @@ $settanta : 70px;
 @mixin headerFooter-icon {
   width: 244px;
   height: $trenta;
-  margin: auto;
 }
 
 @mixin header-right {
@@ -94,4 +94,11 @@ $settanta : 70px;
 @mixin txt {
   text-transform: uppercase;
   text-align: center;
+}
+
+@mixin absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

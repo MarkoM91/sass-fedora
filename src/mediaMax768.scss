@@ -6,10 +6,7 @@
 
     div.header-left {
 
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
+       @include absolute;
 
        div.hamburger-menu {
 
@@ -18,6 +15,11 @@
            position: relative;
            right: 150px;
          }
+       }
+
+       div.header-left-icon {
+
+           margin: auto;
        }
     }
 
