@@ -90,4 +90,21 @@
        padding: 150px 30px;
      }
   }
+
+  div.footer {
+    display: flex;
+    flex-direction: column;
+
+    div.footer-left {
+    @include div;
+    width: $width100;
+    }
+
+    div.footer-right {
+      @include div;
+      width: $width100;
+       div.footer-right div.imprint-security span{
+       }
+    }
+  }
 }
