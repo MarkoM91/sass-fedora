@@ -2,11 +2,23 @@
 
   div.header {
     position: relative;
+    margin: 0;
+
     div.header-left {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+
+       div.hamburger-menu {
+
+         .fa-bars {
+           display: block;
+           position: relative;
+           right: 80px;
+         }
+       }
     }
 
     div.header-right {

@@ -290,6 +290,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 @media screen and (max-width: 768px) {
   div.header {
     position: relative;
+    margin: 0;
   }
 
   div.header div.header-left {
@@ -298,6 +299,12 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+
+  div.header div.header-left div.hamburger-menu .fa-bars {
+    display: block;
+    position: relative;
+    right: 80px;
   }
 
   div.header div.header-right ul li {
