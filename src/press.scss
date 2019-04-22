@@ -3,8 +3,7 @@ div.press {
 
    @include div;
    background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
-   background-size: cover;
-   background-position: center;
+   @include background;
 
    div.press-container {
       @include container;
@@ -18,12 +17,12 @@ div.press {
       p {
         @include p;
 
-       }
+      }
 
       button {
         @include button;
         background: $colors1;
         color: $colors2;
-       }
+      }
    }
 }

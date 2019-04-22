@@ -2,8 +2,7 @@
   div.carrers {
      @include div;
      background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
-     background-size: cover;
-     background-position: center;
+     @include background;
 
      div.carrers-container {
         @include container;
