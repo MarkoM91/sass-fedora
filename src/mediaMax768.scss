@@ -45,20 +45,22 @@
        padding: 10px 0;
 
        div.choose-country {
-          width: 30%;
+          width: $width100;
           @include txt;
           color: $colors1;
           text-shadow: $settanta $settanta $settanta $colors4;
           margin-bottom: $trenta;
+          font-size: $trenta;
        }
 
        div.nations div.nations-flags {
-          width: 70%;
+          width: $width100;
+          padding: $venti;
 
           img {
               width: 44px;
               height: $trenta;
-              margin: 5px;
+              margin: 15px;
           }
        }
     }

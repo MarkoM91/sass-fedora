@@ -357,22 +357,24 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   }
 
   div.slider div.nations div.choose-country {
-    width: 30%;
+    width: 100%;
     text-transform: uppercase;
     text-align: center;
     color: #d70f64;
     text-shadow: 70px 70px 70px black;
     margin-bottom: 30px;
+    font-size: 30px;
   }
 
   div.slider div.nations div.nations div.nations-flags {
-    width: 70%;
+    width: 100%;
+    padding: 20px;
   }
 
   div.slider div.nations div.nations div.nations-flags img {
     width: 44px;
     height: 30px;
-    margin: 5px;
+    margin: 15px;
   }
 
   div.about div.about-container {
