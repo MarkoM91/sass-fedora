@@ -43,7 +43,8 @@
        }
 
        h1 {
-         @include absolute;
+         position: relative;
+         bottom: 130px;
 
          color: $colors2;
          text-shadow: $venti $venti $venti $colors4;

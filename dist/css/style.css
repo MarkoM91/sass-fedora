@@ -352,11 +352,8 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   }
 
   div.slider div.slider-img h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    position: relative;
+    bottom: 130px;
     color: white;
     text-shadow: 20px 20px 20px black;
     text-transform: uppercase;
