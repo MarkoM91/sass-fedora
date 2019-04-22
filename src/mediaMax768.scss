@@ -98,12 +98,20 @@
     div.footer-left {
     @include div;
     width: $width100;
+    position: relative;
+
+      div.trademark {
+        position: absolute;
+        top: 100px;
+      }
     }
 
     div.footer-right {
       @include div;
       width: $width100;
+      position: relative;
        div.footer-right div.imprint-security span{
+         position: absolute;
        }
     }
   }

@@ -404,6 +404,12 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: relative;
+  }
+
+  div.footer div.footer-left div.trademark {
+    position: absolute;
+    top: 100px;
   }
 
   div.footer div.footer-right {
@@ -411,6 +417,11 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: relative;
+  }
+
+  div.footer div.footer-right div.footer-right div.imprint-security span {
+    position: absolute;
   }
 }
 
