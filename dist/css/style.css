@@ -367,8 +367,9 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   }
 
   div.slider div.nations div.nations div.nations-flags {
-    width: 100%;
-    padding: 20px;
+    width: 70px;
+    margin: auto;
+    padding-left: 20px;
   }
 
   div.slider div.nations div.nations div.nations-flags img {
@@ -394,7 +395,34 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1000px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  div.header {
+    position: relative;
+    margin: 0;
+  }
+
+  div.header div.header-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  div.header div.header-left div.hamburger-menu .fa-bars {
+    display: block;
+    position: relative;
+    right: 150px;
+  }
+
+  div.header div.header-left div.header-left-icon {
+    margin: auto;
+  }
+
+  div.header div.header-right ul li {
+    display: none;
+  }
+
   div.about div.about-container {
     padding: 150px 30px;
   }
