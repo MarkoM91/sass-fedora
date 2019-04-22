@@ -136,6 +136,7 @@ div.about div.about-container {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 div.about div.about-container h2 {
@@ -177,6 +178,7 @@ div.carrers div.carrers-container {
   flex-direction: column;
   align-items: center;
   color: white;
+  text-align: center;
 }
 
 div.carrers div.carrers-container h2 {
@@ -218,6 +220,7 @@ div.press div.press-container {
   flex-direction: column;
   align-items: center;
   color: white;
+  text-align: center;
 }
 
 div.press div.press-container h2 {
@@ -258,6 +261,7 @@ div.contact div.contact-container {
   flex-direction: column;
   align-items: center;
   color: white;
+  text-align: center;
 }
 
 div.contact div.contact-container h2 {

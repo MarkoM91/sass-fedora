@@ -7,6 +7,7 @@
      div.carrers-container {
         @include container;
         color: $colors2;
+        text-align: center;
 
         h2 {
            @include h2;

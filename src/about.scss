@@ -1,10 +1,11 @@
 
 div.about {
-   
+
    @include div;
 
    div.about-container {
     @include container;
+    text-align: center;
 
       h2 {
         @include h2;
