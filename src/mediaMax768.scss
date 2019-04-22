@@ -1,12 +1,22 @@
 @media screen and (max-width:768px) {
 
-  div.header-right {
+  div.header {
+    position: relative;
+    div.header-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 
-     ul {
+    div.header-right {
 
-       li {
-         display: none;
+       ul {
+
+         li {
+           display: none;
+         }
        }
-     }
+    }
   }
 }

@@ -7,6 +7,13 @@ div.header {
    div.header-left {
       @include header-left;
 
+      div.hamburger-menu {
+
+         .fa-bars {
+           display: none;
+         }
+      }
+
       div.header-left-icon {
          @include headerFooter-icon;
       }

@@ -19,6 +19,10 @@ div.header div.header-left {
   width: 50%;
 }
 
+div.header div.header-left div.hamburger-menu .fa-bars {
+  display: none;
+}
+
 div.header div.header-left div.header-left-icon {
   width: 244px;
   height: 30px;
@@ -284,7 +288,19 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 }
 
 @media screen and (max-width: 768px) {
-  div.header-right ul li {
+  div.header {
+    position: relative;
+  }
+
+  div.header div.header-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  div.header div.header-right ul li {
     display: none;
   }
 }
