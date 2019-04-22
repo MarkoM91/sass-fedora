@@ -7,7 +7,7 @@ function hiddenNavShow() {
 function resize() {
 
     var ww = document.body.clientWidth;
-    if (ww >100) {
+    if (ww >750) {
       $('.hidden-header-right').removeClass('active');
     }
   }
