@@ -22,6 +22,9 @@ div.header div.header-left {
 div.header div.header-left div.hamburger-menu .fa-bars {
   display: none;
   color: #d70f64;
+  position: absolute;
+  left: 10px;
+  top: 21px;
 }
 
 div.header div.header-left div.header-left-icon {
@@ -335,8 +338,9 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
-    position: relative;
-    right: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
   }
 
   div.header div.header-left div.header-left-icon {
@@ -366,6 +370,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     display: flex;
     flex-direction: column;
     position: relative;
+    bottom: 10px;
     margin: auto;
     width: 100%;
     padding: 10px 0;
@@ -381,20 +386,20 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     font-size: 30px;
   }
 
-  div.slider div.nations div.nations div.nations-flags {
-    width: 70px;
-    margin: auto;
-    padding-left: 20px;
+  div.slider div.nations div.nations-flags {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
   }
 
-  div.slider div.nations div.nations div.nations-flags img {
+  div.slider div.nations div.nations-flags img {
     width: 44px;
     height: 30px;
-    margin: 15px;
+    margin: 5px;
   }
 
   div.about div.about-container {
-    padding: 150px 30px;
+    padding: 100px 30px 150px;
   }
 
   div.carrers div.carrers-container {
@@ -457,7 +462,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
     position: relative;
-    right: 250px;
+    right: 180px;
   }
 
   div.header div.header-left div.header-left-icon {

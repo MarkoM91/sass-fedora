@@ -12,8 +12,9 @@
 
          .fa-bars {
            display: block;
-           position: relative;
-           right: 150px;
+           position: absolute;
+           left: 10px;
+           top: 10px;
          }
        }
 
@@ -59,6 +60,7 @@
        display: flex;
        flex-direction: column;
        position: relative;
+       bottom: 10px;;
        margin: $margin_auto;
        width: $width100;
        padding: 10px 0;
@@ -72,15 +74,16 @@
           font-size: $trenta;
        }
 
-       div.nations div.nations-flags {
-          width: $settanta;
-          margin: $margin_auto;
-          padding-left: $venti;
+       div.nations-flags {
+
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: $trenta;
 
           img {
               width: 44px;
               height: $trenta;
-              margin: 15px;
+              margin: 5px;
           }
        }
     }
@@ -88,7 +91,7 @@
 
   div.about {
      div.about-container {
-       padding: 150px 30px;
+       padding: 100px $trenta 150px;
      }
   }
 

@@ -12,6 +12,9 @@ div.header {
          .fa-bars {
            display: none;
            color: $colors1;
+           position: absolute;
+           left: 10px;
+           top: 21px;
          }
       }
 
