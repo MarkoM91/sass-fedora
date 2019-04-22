@@ -74,6 +74,7 @@ $settanta : 70px;
 @mixin headerFooter-icon {
   width: 244px;
   height: $trenta;
+  margin: auto;
 }
 
 @mixin header-right {
