@@ -393,9 +393,28 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   div.contact div.contact-container {
     padding: 150px 30px;
   }
+
+  div.footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.footer div.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  div.footer div.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
-@media all and (min-width: 768px) and (max-width: 1200px) {
+@media all and (min-width: 768px) and (max-width: 1100px) {
   div.header {
     position: relative;
     margin: 0;
@@ -412,7 +431,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
     position: relative;
-    right: 150px;
+    right: 250px;
   }
 
   div.header div.header-left div.header-left-icon {
