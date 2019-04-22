@@ -34,6 +34,35 @@
     }
   }
 
+  div.slider {
+    div.nations {
+       display: flex;
+       background: $colors3;
+       position: absolute;
+       bottom: 0;
+       margin: $margin_auto;
+       width: $width100;
+       padding: 10px 0;
+
+       div.choose-country {
+          width: 30%;
+          @include txt;
+          color: $colors2;
+          text-shadow: $settanta $settanta $settanta $colors4;
+       }
+
+       div.nations div.nations-flags {
+          width: 70%;
+
+          img {
+              width: 44px;
+              height: $trenta;
+              margin: 5px;
+          }
+       }
+    }
+  }
+
   div.about {
      div.about-container {
        padding: 150px 30px;

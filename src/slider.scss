@@ -30,21 +30,21 @@ div.slider{
        width: $width100;
        padding: 10px 0;
 
-    div.choose-country {
-       width: 30%;
-       @include txt;
-       color: $colors2;
-       text-shadow: $settanta $settanta $settanta $colors4;
-    }
+       div.choose-country {
+          width: 30%;
+          @include txt;
+          color: $colors2;
+          text-shadow: $settanta $settanta $settanta $colors4;
+       }
 
-    div.nations div.nations-flags {
-      width: 70%;
+       div.nations div.nations-flags {
+          width: 70%;
 
-      img {
-        width: 44px;
-        height: $trenta;
-        margin: 5px;
-      }
+          img {
+              width: 44px;
+              height: $trenta;
+              margin: 5px;
+          }
+       }
     }
-  }
 }
