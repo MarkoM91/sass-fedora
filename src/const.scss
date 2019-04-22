@@ -84,7 +84,7 @@ $settanta : 70px;
 }
 @mixin footer-right {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   width: 50%;
