@@ -77,6 +77,7 @@ div.header div.active {
 div.slider {
   max-width: 1349px;
   position: relative;
+  display: none;
 }
 
 div.slider div.slider-img img {
@@ -123,6 +124,10 @@ div.slider div.nations div.nations div.nations-flags img {
   width: 44px;
   height: 30px;
   margin: 5px;
+}
+
+div.active {
+  display: block;
 }
 
 div.about {

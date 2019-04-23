@@ -2,7 +2,7 @@
 div.slider{
    max-width: 1349px;
    position: relative;
-
+   display: none;
    div.slider-img{
 
       img{
@@ -19,9 +19,9 @@ div.slider{
         font-size: $quaranta;
         padding: 8px 0;
       }
-    }
+   }
 
-    
+
 
     div.nations {
        display: flex;
@@ -49,4 +49,8 @@ div.slider{
           }
        }
     }
+}
+
+div.active {
+  display: block;
 }
