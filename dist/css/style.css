@@ -338,9 +338,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
-    position: absolute;
-    left: 10px;
-    top: 10px;
+    position: fixed;
   }
 
   div.header div.header-left div.header-left-icon {
@@ -462,8 +460,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
-    position: relative;
-    right: 180px;
+    position: fixed;
   }
 
   div.header div.header-left div.header-left-icon {
