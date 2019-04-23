@@ -117,14 +117,21 @@ div.slider div.nations div.choose-country {
   text-shadow: 70px 70px 70px black;
 }
 
-div.slider div.nations div.nations div.nations-flags {
+div.slider div.nations div.nations-flags {
+  display: flex;
+  flex-wrap: wrap;
   width: 70%;
 }
 
-div.slider div.nations div.nations div.nations-flags img {
+div.slider div.nations div.nations-flags div.nations-flags-items img {
   width: 44px;
   height: 30px;
   margin: 5px;
+}
+
+div.slider div.nations div.nations-flags div.nations-flags-items span {
+  display: none;
+  width: 47px;
 }
 
 div.active {
@@ -162,11 +169,18 @@ div.about div.about-container p {
 div.about div.about-container button {
   padding: 20px 75px;
   border: none;
+  border-radius: 8px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
   background: #d70f64;
   color: white;
+}
+
+div.about div.about-container button:hover {
+  background: white;
+  color: #d70f64;
+  border: 1px solid #d70f64;
 }
 
 div.carrers {
@@ -204,11 +218,18 @@ div.carrers div.carrers-container p {
 div.carrers div.carrers-container button {
   padding: 20px 75px;
   border: none;
+  border-radius: 8px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
   background: #d70f64;
   color: white;
+}
+
+div.carrers div.carrers-container button:hover {
+  background: white;
+  color: #d70f64;
+  border: 1px solid #d70f64;
 }
 
 div.press {
@@ -246,11 +267,18 @@ div.press div.press-container p {
 div.press div.press-container button {
   padding: 20px 75px;
   border: none;
+  border-radius: 8px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
   background: #d70f64;
   color: white;
+}
+
+div.press div.press-container button:hover {
+  background: white;
+  color: #d70f64;
+  border: 1px solid #d70f64;
 }
 
 div.contact {
@@ -287,11 +315,18 @@ div.contact div.contact-container p {
 div.contact div.contact-container button {
   padding: 20px 75px;
   border: none;
+  border-radius: 8px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
   background: white;
   color: #d70f64;
+}
+
+div.contact div.contact-container button:hover {
+  background: #d70f64;
+  color: white;
+  border: 1px solid white;
 }
 
 div.footer {
@@ -357,13 +392,24 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     display: none;
   }
 
+  div.slider {
+    position: relative;
+  }
+
+  div.slider div.slider-img {
+    position: relative;
+  }
+
   div.slider div.slider-img img {
     width: 100%;
   }
 
   div.slider div.slider-img h1 {
-    position: relative;
-    bottom: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     color: white;
     text-shadow: 20px 20px 20px black;
     text-transform: uppercase;
@@ -376,10 +422,11 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 10px;
+    top: 20px;
     margin: auto;
     width: 100%;
-    padding: 10px 0;
+    padding: 65px 0 150px 0;
+    background: rgba(255, 255, 255, 0.3);
   }
 
   div.slider div.nations div.choose-country {
@@ -394,15 +441,28 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.slider div.nations div.nations-flags {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    padding-left: 30px;
     margin: auto;
   }
 
-  div.slider div.nations div.nations-flags img {
+  div.slider div.nations div.nations-flags div.nations-flags-items {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 11px;
+  }
+
+  div.slider div.nations div.nations-flags div.nations-flags-items img {
     width: 44px;
     height: 30px;
-    margin: 5px;
+    margin: 5px 10px;
+  }
+
+  div.slider div.nations div.nations-flags div.nations-flags-items span {
+    display: none;
   }
 
   div.about div.about-container {
@@ -410,11 +470,11 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
   }
 
   div.carrers div.carrers-container {
-    padding: 150px 30px;
+    padding: 150px 50px;
   }
 
   div.press div.press-container {
-    padding: 150px 30px;
+    padding: 150px 50px;
   }
 
   div.contact div.contact-container {
@@ -480,6 +540,82 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-right ul li {
     display: none;
+  }
+
+  div.slider {
+    position: relative;
+  }
+
+  div.slider div.slider-img {
+    position: relative;
+  }
+
+  div.slider div.slider-img img {
+    width: 100%;
+  }
+
+  div.slider div.slider-img h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 20px 20px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding: 8px 0;
+  }
+
+  div.slider div.nations {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 100%;
+    padding: 20px 30px 125px 30px;
+    background: none;
+  }
+
+  div.slider div.nations div.choose-country {
+    width: 100%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d70f64;
+    text-shadow: 70px 70px 70px black;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  div.slider div.nations div.nations-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    margin: auto;
+  }
+
+  div.slider div.nations div.nations-flags div.nations-flags-items {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  div.slider div.nations div.nations-flags div.nations-flags-items img {
+    width: 44px;
+    height: 30px;
+    margin: 5px 25px;
+  }
+
+  div.slider div.nations div.nations-flags div.nations-flags-items span {
+    display: block;
+    color: #d70f64;
+    width: 47px;
   }
 
   div.about div.about-container {
