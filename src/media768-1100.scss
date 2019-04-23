@@ -93,7 +93,7 @@
             padding-left: 50px;
 
             img {
-                width: 44px;
+                width: $imgWidth;
                 height: $trenta;
                 margin: 5px 25px;
             }
@@ -101,6 +101,7 @@
             span {
               display: block;
               color: $colors1;
+              width: $spanWidth;
             }
           }
        }

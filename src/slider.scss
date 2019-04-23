@@ -45,16 +45,14 @@ div.slider{
           div.nations-flags-items {
 
               img {
-
-                  width: 44px;
+                  width: $imgWidth;
                   height: $trenta;
                   margin: 5px;
-
               }
-
 
               span {
                 display: none;
+                width: $spanWidth;
               }
           }
        }

@@ -80,9 +80,7 @@
 
        div.nations-flags {
 
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          @include div;
           flex-wrap: wrap;
           padding-left: $trenta;
           margin: $margin_auto;
@@ -95,7 +93,7 @@
             padding-left: 11px;
 
             img {
-                width: 44px;
+                width: $imgWidth;
                 height: $trenta;
                 margin: 5px $dieci;
             }
@@ -103,6 +101,7 @@
             span {
               display: block;
               color: $colors1;
+              width: $spanWidth;
             }
           }
        }
