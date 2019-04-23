@@ -4,19 +4,19 @@ div.header {
 
    margin: 0 $margin70;
 
+   div.hamburger-menu {
+
+      .fa-bars {
+        display: none;
+        color: $colors1;
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+   }
+
    div.header-left {
       @include header-left;
-
-      div.hamburger-menu {
-
-         .fa-bars {
-           display: none;
-           color: $colors1;
-           position: relative;
-           right: 150px;
-
-         }
-      }
 
       div.header-left-icon {
          @include headerFooter-icon;

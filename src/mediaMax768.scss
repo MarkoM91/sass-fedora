@@ -4,18 +4,19 @@
     position: relative;
     margin: 0;
 
+    div.hamburger-menu {
+       display: block;
+
+      .fa-bars {
+        display: block;
+      }
+    }
 
     div.header-left {
 
        @include absolute;
 
-       div.hamburger-menu {
-          position: relative;
-          left: 50px;
-         .fa-bars {
-           display: block;
-         }
-       }
+
 
        div.header-left-icon {
 
