@@ -458,20 +458,20 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     margin: 0;
   }
 
+  div.header div.hamburger-menu i.fa-bars {
+    display: block;
+    color: #d70f64;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+
   div.header div.header-left {
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-  }
-
-  div.header div.header-left div.hamburger-menu i.fa-bars {
-    display: block;
-    color: #d70f64;
-    position: relative;
-    top: 20px;
-    left: 10px;
   }
 
   div.header div.header-left div.header-left-icon {
