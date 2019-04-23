@@ -390,6 +390,7 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
     display: flex;
     flex-wrap: wrap;
     padding-left: 30px;
+    margin: auto;
   }
 
   div.slider div.nations div.nations-flags img {
