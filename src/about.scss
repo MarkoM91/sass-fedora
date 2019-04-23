@@ -20,6 +20,11 @@ div.about {
         @include button;
         background: $colors1;
         color: $colors2;
+        &:hover {
+          background: $colors2;
+          color: $colors1;
+          border: 1px solid $colors1;
+        }
       }
    }
 }
