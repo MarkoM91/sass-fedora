@@ -19,7 +19,7 @@ $center : center;
 
 
 @mixin button {
-  padding: 20px 75px;
+  padding: $venti 75px;
   border: none;
 
   text-align: $center;
@@ -34,7 +34,7 @@ $center : center;
 }
 
 @mixin p {
-  font-size: 20px;
+  font-size: $venti;
   margin-bottom: $quaranta;
 }
 
@@ -46,7 +46,7 @@ $center : center;
 
 @mixin container {
   margin: auto;
-  padding: 150px 275px;
+  padding: $centocinquanta 275px;
 
   display: flex;
   justify-content: $center;
