@@ -11,8 +11,8 @@
         display: block;
         color: $colors1;
         position: relative;
-        top: 20px;
-        left: 10px;
+        top: $venti;
+        left: $dieci;
       }
     }
 
@@ -64,10 +64,10 @@
        display: flex;
        flex-direction: column;
        position: relative;
-       bottom: 10px;;
+       bottom: $dieci;
        margin: $margin_auto;
        width: $width100;
-       padding: 10px 0;
+       padding: $dieci 0;
 
        div.choose-country {
           width: $width100;
@@ -96,25 +96,25 @@
 
   div.about {
      div.about-container {
-       padding: 100px $trenta 150px;
+       padding: 100px $trenta $centocinquanta;
      }
   }
 
   div.carrers {
      div.carrers-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 
   div.press {
      div.press-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 
   div.contact {
      div.contact-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 

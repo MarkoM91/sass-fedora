@@ -10,8 +10,8 @@
         display: block;
         color: $colors1;
         position: relative;
-        top: 20px;
-        left: 10px;
+        top: $venti;
+        left: $dieci;
       }
     }
 
@@ -38,25 +38,25 @@
 
   div.about {
      div.about-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 
   div.carrers {
      div.carrers-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 
   div.press {
      div.press-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 
   div.contact {
      div.contact-container {
-       padding: 150px 30px;
+       padding: $centocinquanta $trenta;
      }
   }
 }
