@@ -37,16 +37,17 @@
   }
 
   div.slider {
+    position: relative;
 
     div.slider-img{
+      position: relative;
 
        img{
            width: $width100;
        }
 
        h1 {
-         position: relative;
-         bottom: 225px;
+         @include absolute;
 
          color: $colors2;
          text-shadow: $venti $venti $venti $colors4;
@@ -65,9 +66,11 @@
        margin: $margin_auto;
        width: $width100;
        padding: $dieci 0;
+       background: none;
 
        div.choose-country {
           width: $width100;
+          margin-top: $venti;
           @include txt;
           color: $colors1;
           text-shadow: $settanta $settanta $settanta $colors4;
