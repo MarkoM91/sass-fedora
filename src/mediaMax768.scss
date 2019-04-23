@@ -47,7 +47,7 @@
 
        h1 {
          position: relative;
-         bottom: 130px;
+         bottom: 125px;
 
          color: $colors2;
          text-shadow: $venti $venti $venti $colors4;
@@ -90,16 +90,17 @@
             width: 50%;
             display: flex;
             align-items: center;
-            padding-left: 20px;
+            padding-left: 15px;
 
             img {
                 width: 44px;
                 height: $trenta;
-                margin: 5px;
+                margin: 5px $dieci;
             }
 
             span {
               display: block;
+              color: $colors1;
             }
           }
        }

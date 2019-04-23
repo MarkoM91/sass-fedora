@@ -46,7 +46,7 @@
 
        h1 {
          position: relative;
-         bottom: 130px;
+         bottom: 225px;
 
          color: $colors2;
          text-shadow: $venti $venti $venti $colors4;
@@ -92,11 +92,12 @@
             img {
                 width: 44px;
                 height: $trenta;
-                margin: 5px 15px;
+                margin: 5px 25px;
             }
 
             span {
               display: block;
+              color: $colors1;
             }
           }
        }
