@@ -40,28 +40,23 @@ div.slider{
         div.nations-flags {
          display: flex;
          flex-wrap: wrap;
-          width: 70%;
+         width: 70%;
 
           div.nations-flags-items {
 
               img {
 
                   width: 44px;
-
                   height: $trenta;
-
                   margin: 5px;
 
               }
 
 
               span {
-
                 display: none;
-
               }
           }
-
        }
     }
 }
