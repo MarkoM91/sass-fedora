@@ -66,7 +66,7 @@
        top: $venti;
        margin: $margin_auto;
        width: $width100;
-       padding: 20px 30px 150px 30px;
+       padding: 20px 0 150px 0;
        background: none;
 
        div.choose-country {
@@ -82,14 +82,12 @@
 
           @include div;
           flex-wrap: wrap;
-          padding-left: $trenta;
           margin: $margin_auto;
 
           div.nations-flags-items {
 
             width: 50%;
-            display: flex;
-            align-items: center;
+            @include div;
             padding-left: 11px;
 
             img {
