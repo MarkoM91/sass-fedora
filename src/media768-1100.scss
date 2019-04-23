@@ -10,9 +10,14 @@
 
        div.hamburger-menu {
 
-         .fa-bars {
+
+         i.fa-bars {
            display: block;
-           
+           color: $colors1;
+           position: relative;
+           top: 20px;
+           left: 10px;
+
          }
        }
 
