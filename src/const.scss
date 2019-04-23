@@ -13,12 +13,14 @@ $trenta :30px;
 $quaranta: 40px;
 $settanta : 70px;
 
+$center : center;
+
 
 @mixin button {
   padding: 20px 75px;
   border: none;
 
-  text-align: center;
+  text-align: $center;
   text-transform: uppercase;
   margin-bottom: $quaranta;
 }
@@ -36,8 +38,8 @@ $settanta : 70px;
 
 @mixin div {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: $center;
+  align-items: $center;
 }
 
 @mixin container {
@@ -45,9 +47,9 @@ $settanta : 70px;
   padding: 150px 275px;
 
   display: flex;
-  justify-content: center;
+  justify-content: $center;
   flex-direction: column;
-  align-items: center;
+  align-items: $center;
 }
 
 @mixin headerFooter {
@@ -61,12 +63,12 @@ $settanta : 70px;
 @mixin header-left {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: $center;
   width: 50%;
 }
 @mixin footer-left {
   display: flex;
-  justify-content: center;
+  justify-content: $center;
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
@@ -80,20 +82,20 @@ $settanta : 70px;
 @mixin header-right {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: $center;
   width: 50%;
 }
 @mixin footer-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: $center;
   align-items: flex-end;
   width: 50%;
 }
 
 @mixin txt {
   text-transform: uppercase;
-  text-align: center;
+  text-align: $center;
 }
 
 @mixin absolute {
@@ -104,7 +106,7 @@ $settanta : 70px;
 }
 
 @mixin background {
-  
+
   background-size: cover;
-  background-position: center;
+  background-position: $center;
 }
