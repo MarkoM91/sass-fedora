@@ -22,9 +22,8 @@ div.header div.header-left {
 div.header div.header-left div.hamburger-menu .fa-bars {
   display: none;
   color: #d70f64;
-  position: absolute;
-  left: 10px;
-  top: 21px;
+  position: relative;
+  right: 150px;
 }
 
 div.header div.header-left div.header-left-icon {
@@ -338,7 +337,6 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
-    position: fixed;
   }
 
   div.header div.header-left div.header-left-icon {
@@ -460,7 +458,6 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
 
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
-    position: fixed;
   }
 
   div.header div.header-left div.header-left-icon {
