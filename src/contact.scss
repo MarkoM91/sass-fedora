@@ -1,6 +1,6 @@
 
 div.contact {
-  max-width: 1349px;
+   max-width: 1349px;
    @include div;
    background: $colors1;
 
@@ -8,7 +8,7 @@ div.contact {
      @include container;
       color: $colors2;
       text-align: center;
-      
+
       h2 {
          @include h2;
          color: $colors2;
