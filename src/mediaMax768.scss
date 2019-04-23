@@ -66,7 +66,7 @@
        top: $venti;
        margin: $margin_auto;
        width: $width100;
-       padding: 20px 0 150px 0;
+       padding: 20px 30px 150px 30px;
        background: none;
 
        div.choose-country {
@@ -99,9 +99,7 @@
             }
 
             span {
-              display: block;
-              color: $colors1;
-              width: $spanWidth;
+              display: none;
             }
           }
        }
