@@ -4,15 +4,16 @@
     position: relative;
     margin: 0;
 
+
     div.header-left {
 
        @include absolute;
 
        div.hamburger-menu {
-
+          position: relative;
+          left: 50px;
          .fa-bars {
            display: block;
-           position: fixed;
          }
        }
 

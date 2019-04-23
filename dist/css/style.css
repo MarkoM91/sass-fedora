@@ -335,6 +335,11 @@ div.footer div.footer-right div.footer-right div.imprint-security span {
             transform: translate(-50%, -50%);
   }
 
+  div.header div.header-left div.hamburger-menu {
+    position: relative;
+    left: 50px;
+  }
+
   div.header div.header-left div.hamburger-menu .fa-bars {
     display: block;
   }
