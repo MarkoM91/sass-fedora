@@ -37,14 +37,31 @@ div.slider{
           text-shadow: $settanta $settanta $settanta $colors4;
        }
 
-       div.nations div.nations-flags {
+        div.nations-flags {
+         display: flex;
+         flex-wrap: wrap;
           width: 70%;
 
-          img {
-              width: 44px;
-              height: $trenta;
-              margin: 5px;
+          div.nations-flags-items {
+
+              img {
+
+                  width: 44px;
+
+                  height: $trenta;
+
+                  margin: 5px;
+
+              }
+
+
+              span {
+
+                display: none;
+
+              }
           }
+
        }
     }
 }

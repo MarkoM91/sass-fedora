@@ -79,14 +79,23 @@
        div.nations-flags {
 
           display: flex;
+          justify-content: center;
+          align-items: center;
           flex-wrap: wrap;
           padding-left: $trenta;
           margin: $margin_auto;
 
-          img {
-              width: 44px;
-              height: $trenta;
-              margin: 5px;
+          div.nations-flags-items {
+
+            img {
+                width: 44px;
+                height: $trenta;
+                margin: 5px;
+            }
+
+            span {
+              display: block;
+            }
           }
        }
     }
