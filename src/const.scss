@@ -110,9 +110,9 @@ $center : center;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 @mixin background {
-
   background-size: cover;
   background-position: $center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
