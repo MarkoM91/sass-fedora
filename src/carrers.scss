@@ -3,7 +3,8 @@
      @include div;
      background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
      @include background;
-
+     background-attachment: fixed;
+     background-repeat: no-repeat;
      div.carrers-container {
         @include container;
         color: $colors2;

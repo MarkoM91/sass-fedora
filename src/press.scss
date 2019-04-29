@@ -4,7 +4,8 @@ div.press {
    @include div;
    background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
    @include background;
-
+   background-attachment: fixed;
+   background-repeat: no-repeat;
    div.press-container {
       @include container;
       color: $colors2;
