@@ -7,3 +7,5 @@ sass-fedora is a responsive clone of Foodora's Homepage
 HTML/CSS/SCSS/JAVASCRIPT/JQUERY
 
 ## Project's Screenshots
+
+ ![](foodora.png)
