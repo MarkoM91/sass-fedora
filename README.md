@@ -8,6 +8,7 @@ HTML/CSS/SCSS/JAVASCRIPT/JQUERY
 
 ## Project's Screenshots
 
- ![](foodora.png)
+ ![](f.png)
+ 
  
  ![](foodora2.png)
