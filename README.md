@@ -10,4 +10,4 @@ HTML/CSS/SCSS/JAVASCRIPT/JQUERY
 
  ![](foodora.png)
  
- ![](foodora1.png)
+ ![](foodora2.png)
